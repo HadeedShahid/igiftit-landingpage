@@ -1,0 +1,102 @@
+/*General css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+/*started div*/
+
+.started{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.started .left{
+    background: url(./assets/left.png);
+    width: 50%;
+    height: auto;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+    position: relative;
+}
+
+
+
+
+.started .left .nav-bar{
+    max-width: 1000px;
+    width: 90%;
+    border: 2px solid green;
+    margin: 0 auto;
+}
+.started .left .nav-bar .logo{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 37px;
+}
+.started .left .left-content{
+    top: 575px;
+    text-align: right;
+    border: 2px solid red;
+    position: absolute;
+    width: 96%;
+}
+.started .left .thoughtful{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.6rem;
+    line-height: 110px;
+    letter-spacing: 0.05em;
+   
+}
+.started .right{
+    background: url(./assets/right.png);
+    width: 50%;
+    height: auto;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+}
+.started .right .moto-section{
+    border: 2px solid cyan;
+    margin: 0 auto;
+    text-align: right;
+    margin-top: 28.1em;
+    margin-left: 38%;
+}
+.started .right .moto-section .moto-sent{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 150%;
+    max-width: 18em;
+}
+.started .right .right-content{
+    top: 575px;
+    text-align: left;
+    border: 2px solid red;
+    position: absolute;
+    width: 48%;
+}
+.started .right .right-content .gifting{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.6rem;
+    line-height: 110px;
+    letter-spacing: 0.05em;
+}
