@@ -29,7 +29,7 @@ body{
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.8rem;
-    width: 100%;
+    width: 339px;
     height: 76px;
 }
 
@@ -160,6 +160,10 @@ body{
 }
 .find-gifts .left-find-gift .Lcontainer{
     width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .find-gifts .left-find-gift .head{
     font-family: 'Helvetica';
