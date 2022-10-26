@@ -11,6 +11,30 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
+/*ultility classes*/
+/*Utility classes*/
+.btn-struct{
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 10.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-attrs{
+    background: #242424;
+    color: #FFFFFF;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    width: 100%;
+    height: 76px;
+}
+
+
+
 /*started div*/
 
 .started{
@@ -35,10 +59,12 @@ body{
 
 
 .started .left .nav-bar{
+    top: 50px;
+    left: 50px;
     max-width: 1000px;
     width: 90%;
-    border: 2px solid green;
     margin: 0 auto;
+    position: absolute ;
 }
 .started .left .nav-bar .logo{
     font-weight: 700;
@@ -46,9 +72,8 @@ body{
     line-height: 37px;
 }
 .started .left .left-content{
-    top: 575px;
+    top: 600px;
     text-align: right;
-    border: 2px solid red;
     position: absolute;
     width: 96%;
 }
@@ -71,11 +96,12 @@ body{
     padding: 2em;
 }
 .started .right .moto-section{
-    border: 2px solid cyan;
     margin: 0 auto;
     text-align: right;
-    margin-top: 28.1em;
-    margin-left: 38%;
+    margin-top: 25.1em;
+    margin-right: 10%;
+    display: flex;
+    justify-content: right;
 }
 .started .right .moto-section .moto-sent{
     font-family: 'Aleo';
@@ -86,11 +112,14 @@ body{
     max-width: 18em;
 }
 .started .right .right-content{
-    top: 575px;
+    top: 600px;
     text-align: left;
-    border: 2px solid red;
     position: absolute;
-    width: 48%;
+   
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    justify-content: space-between;
 }
 .started .right .right-content .gifting{
     font-family: 'Helvetica';
@@ -99,4 +128,15 @@ body{
     font-size: 9.6rem;
     line-height: 110px;
     letter-spacing: 0.05em;
+}
+.started .right .right-content .made-easy{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.05em;
+}
+.started .right .right-content .btn-margs{
+    margin-top: 1em;
 }
