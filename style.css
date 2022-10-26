@@ -39,7 +39,7 @@ body{
 
 .started{
     width: 100%;
-    height: 110vh;
+    height: 1000px;
     display: flex;
     color: #FFFFFF;
 }
@@ -47,7 +47,7 @@ body{
 .started .left{
     background: url(./assets/left.png);
     width: 50%;
-    height: auto;
+    height: 100%;
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ body{
 .started .right{
     background: url(./assets/right.png);
     width: 50%;
-    height: auto;
+    height: 100%;
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -139,4 +139,72 @@ body{
 }
 .started .right .right-content .btn-margs{
     margin-top: 1em;
+}
+
+
+
+/*finding gifts section*/
+.find-gifts{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    color: black;
+    display: flex;
+}
+.find-gifts .left-find-gift{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.find-gifts .left-find-gift .Lcontainer{
+    width: 60%;
+}
+.find-gifts .left-find-gift .head{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.05em;
+}
+.find-gifts .left-find-gift .desc{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.find-gifts .right-find-gift{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.find-gifts .right-find-gift .shape{
+    height: 370px;
+    width: 240px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 120px 120px  120px 120px;
+}
+.find-gifts .right-find-gift .Rcontainer{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 1000px;
+    width: 600px;
+}
+.find-gifts .right-find-gift .Rcontainer .img1{
+    background: url(./assets/buyimg1.png);
+}
+.find-gifts .right-find-gift .Rcontainer .img2{
+    background: url(./assets/buyimg2.png);
+}
+.find-gifts .right-find-gift .Rcontainer .img3{
+    background: url(./assets/buyimg3.png);
 }
