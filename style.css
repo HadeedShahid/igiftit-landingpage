@@ -32,7 +32,9 @@ body{
     width: 339px;
     height: 76px;
 }
-
+.back-color-pink{
+    filter: invert(92%) sepia(8%) saturate(2903%) hue-rotate(298deg) brightness(102%) contrast(87%);
+}
 
 
 /*started div*/
@@ -216,7 +218,11 @@ body{
 
 /*#################### how we work section ######################*/
 .wework{
-    border: 2px solid lightgreen;
+    height: 1000px;
+
+    position: relative;
+    
+    
 }
 .wework .head{
     font-family: 'Helvetica';
@@ -226,7 +232,6 @@ body{
     line-height: 74px;
     text-align: center;
     letter-spacing: 0.05em;
-    border: 2px solid red;
 }
 .wework .card{
     background: #FFFFFF;
@@ -256,4 +261,48 @@ body{
     font-size: 32px;
     line-height: 150%;
     color: #242424;
+}
+.wework .c1{
+    position: absolute;
+    top: 159px;
+    left: 10%;
+}
+.wework .c2{
+    position: absolute;
+    top: 430px;
+    left: 38%;
+}
+.wework .c3{
+    position: absolute;
+    top: 263px;
+    left: 68%;
+}
+.wework .img1{
+    position: absolute;
+    top: 460px;
+    left: 29%;
+}
+.wework .img2{
+    position: absolute;
+    top: 360px;
+    left: 57%;
+}
+.wework .img3{
+    position: absolute;
+    top: 550px;
+    left: 69%;
+}
+.wework .img4{
+    position: absolute;
+    top: 570px;
+    left: 68.5%;
+}
+.wework .back-img1{
+    position: absolute;
+    top: 550px;
+}
+.wework .back-img2{
+    position: absolute;
+    top: 95px;
+    left: 74%;
 }
