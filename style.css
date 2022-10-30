@@ -32,6 +32,7 @@ body{
     width: 339px;
     height: 76px;
 }
+
 .back-color-pink{
     filter: invert(92%) sepia(8%) saturate(2903%) hue-rotate(298deg) brightness(102%) contrast(87%);
 }
@@ -310,6 +311,7 @@ body{
 /*Gifts for everyone section*/
 .for-everyone{
     height: 100px;
+    border: 2px solid red;
 }
 .for-everyone .head{
     font-family: 'DM Sans';
@@ -321,32 +323,85 @@ body{
     letter-spacing: 0.02em;
 }
 .for-everyone .img-showcase{
-    /* display: flex;
-    justify-content: space-evenly;*/
+     display: flex;
+    justify-content:center;
     max-width: 100%; 
     border: 2px solid cyan;
     margin: 0 auto;
-    height: 787px;
-    width: 50%;
+    max-height: 787px;
+    width: 100%;
+    max-width: 1920px;
     margin-top: 8rem;
+    position: relative;
+
 }
 .for-everyone .img-showcase .img-cont{
-   
-    max-width: 400px;
-    width: 90%;
-    max-height: 100%;
+    width: 25%;
     border: 2px solid red;
+    position: relative;
+
 }
 .for-everyone .img-showcase .img-cont img{
     width: 100%;
-    height: auto;
+    min-height: 100%;
+   
+
 }
-/*.for-everyone .img-showcase .show-img2{
-    background: url(./assets/gifts-for-everyone/ev-2.png);
+.showcase-btn-struct{
+    width: 214px;
+    height: 79px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    background: #242424;
+    text-decoration: none;
+    border-radius: 10.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.for-everyone .img-showcase .show-img3{
-    background: url(./assets/gifts-for-everyone/ev-1.png);
+
+.for-everyone .img-showcase .showcase-btn1{
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    top: 86%;
+    z-index: 1;
 }
-.for-everyone .img-showcase .show-img4{
-    background: url(./assets/gifts-for-everyone/ev-3.png);
-} */
+.for-everyone .img-showcase .showcase-btn2{
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    top: 86%;
+    z-index: 1;
+}
+.for-everyone .img-showcase .showcase-btn3{
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    top: 86%;
+    z-index: 1;
+}
+.for-everyone .img-showcase .showcase-btn4{
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    top: 86%;
+    z-index: 1;
+}
+.for-everyone .showcase-gradient{
+    background: linear-gradient(180deg, rgba(36, 36, 36, 0.04) 0%, #242424 100%);
+    height: 40%;
+    width: 100%;
+    border: 2px solid violet;
+    position: absolute;
+    bottom: 1px;
+    z-index: 0;
+}
+
+/* ################# footer ################# */
+.footer{
+}
