@@ -310,7 +310,7 @@ body{
 
 /*Gifts for everyone section*/
 .for-everyone{
-    height: 100px;
+    height: 950px;
     border: 2px solid red;
 }
 .for-everyone .head{
@@ -404,4 +404,76 @@ body{
 
 /* ################# footer ################# */
 .footer{
+    width: 100%;
+    height: 483px;
+    background: #242424;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid cyan;
+    height: 60%;
+    width: 80%;
+}
+.footer .left-foot{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer .left-foot .head{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 0.02em;
+
+}
+.footer .left-foot .links{
+    display: flex;
+    flex-direction: column;
+}
+.footer .left-foot .links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 10px;
+}
+.footer .left-foot .copy-right{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.footer .right-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: 2px solid green;
+}
+.footer .right-foot .email{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+.footer .right-foot .num{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
