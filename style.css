@@ -153,6 +153,9 @@ body{
     display: flex;
     color: black;
     display: flex;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
 }
 .find-gifts .left-find-gift{
     max-width: 60%;
@@ -310,7 +313,7 @@ body{
 
 /*Gifts for everyone section*/
 .for-everyone{
-    height: 950px;
+    max-height: 1000px;
     border: 2px solid red;
 }
 .for-everyone .head{
@@ -328,7 +331,7 @@ body{
     max-width: 100%; 
     border: 2px solid cyan;
     margin: 0 auto;
-    max-height: 787px;
+    max-height: 800px;
     width: 100%;
     max-width: 1920px;
     margin-top: 8rem;
@@ -343,7 +346,7 @@ body{
 }
 .for-everyone .img-showcase .img-cont img{
     width: 100%;
-    min-height: 100%;
+    height: 100%;
    
 
 }
@@ -411,6 +414,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 .footer .wrapper{
     display: flex;
