@@ -225,8 +225,17 @@ body{
     height: 1000px;
 
     position: relative;
-    
-    
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.wework .card-cont{
+    border: 2px solid green;
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;
+    height: 100%;
+    position: relative;
 }
 .wework .head{
     font-family: 'Helvetica';
@@ -241,8 +250,8 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.05);
     border-radius: 24px;
-    width: 425px;
-    height: 271px;
+    width: 400px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -268,51 +277,57 @@ body{
 }
 .wework .c1{
     position: absolute;
-    top: 159px;
-    left: 10%;
+    top: 130px;
+    left: 0;
 }
 .wework .c2{
     position: absolute;
-    top: 430px;
-    left: 38%;
+    top: 520px;
+    left: 50%;
+    transform:translate(-50%,-50%);
 }
 .wework .c3{
     position: absolute;
-    top: 263px;
-    left: 68%;
+    top: 220px;
+    right: 0;
+}
+.wework .img-prop{
+    width: 50px;
+    height: 50px;
 }
 .wework .img1{
     position: absolute;
-    top: 460px;
-    left: 29%;
+    top: 410px;
+    left: 26%;
 }
+
 .wework .img2{
     position: absolute;
-    top: 360px;
-    left: 57%;
+    top: 310px;
+    left: 60%;
+    
 }
 .wework .img3{
     position: absolute;
-    top: 550px;
-    left: 69%;
-}
-.wework .img4{
-    position: absolute;
-    top: 570px;
-    left: 68.5%;
+    top: 500px;
+    right: 25%;
 }
 .wework .back-img1{
     position: absolute;
     top: 550px;
+    /* width: 100em;
+    height: 30em; */
 }
 .wework .back-img2{
     position: absolute;
     top: 95px;
-    left: 74%;
+    /* left: 74; */
+    right:0;
 }
 
 /*Gifts for everyone section*/
 .for-everyone{
+    margin-top: 100px;
     max-height: 1000px;
     border: 2px solid red;
 }
