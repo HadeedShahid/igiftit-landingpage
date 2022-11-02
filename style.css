@@ -153,7 +153,6 @@ body{
     display: flex;
     color: black;
     display: flex;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
 }
@@ -225,12 +224,10 @@ body{
     height: 1000px;
 
     position: relative;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
 .wework .card-cont{
-    border: 2px solid green;
     width: 90%;
     max-width: 2000px;
     margin: auto;
@@ -329,7 +326,6 @@ body{
 .for-everyone{
     margin-top: 100px;
     max-height: 1000px;
-    border: 2px solid red;
 }
 .for-everyone .head{
     font-family: 'DM Sans';
@@ -344,7 +340,6 @@ body{
      display: flex;
     justify-content:center;
     max-width: 100%; 
-    border: 2px solid cyan;
     margin: 0 auto;
     max-height: 800px;
     width: 100%;
@@ -355,7 +350,6 @@ body{
 }
 .for-everyone .img-showcase .img-cont{
     width: 25%;
-    border: 2px solid red;
     position: relative;
 
 }
@@ -414,7 +408,6 @@ body{
     background: linear-gradient(180deg, rgba(36, 36, 36, 0.04) 0%, #242424 100%);
     height: 40%;
     width: 100%;
-    border: 2px solid violet;
     position: absolute;
     bottom: 1px;
     z-index: 0;
@@ -434,12 +427,10 @@ body{
 .footer .wrapper{
     display: flex;
     justify-content: space-between;
-    border: 2px solid cyan;
     height: 60%;
     width: 80%;
 }
 .footer .left-foot{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -479,7 +470,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    border: 2px solid green;
 }
 .footer .right-foot .email{
     font-family: 'Aleo';
